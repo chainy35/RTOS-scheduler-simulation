@@ -101,7 +101,7 @@ void main() {
 	//go through the hyperperiod from time=0 to determine
 	//which task to schedule in each time unit
 	int failure = 0;//used to report failed
-	for (int i=0;i < hp;i++) {
+	for (int i=0;i <= hp;i++) {
 		
 		for (int j = 0;j < jobs_num;j++) {
 			//update the deadline of task
